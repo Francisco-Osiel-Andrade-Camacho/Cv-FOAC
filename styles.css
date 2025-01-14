@@ -1,0 +1,84 @@
+/* Configuración global */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f3f4f6;
+    color: #333;
+}
+
+/* Contenedor principal */
+.container {
+    max-width: 900px;
+    margin: 30px auto;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+
+/* Encabezado */
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.header .profile-img {
+    width: 196px; /* Tamaño pequeño de la imagen */
+    height: 196px; /* Proporción ajustada */
+    border-radius: 50%; /* Redondear los bordes */
+    object-fit: cover;
+    margin-bottom: 10px;
+    border: 3px solid #2563eb; /* Borde azul delgado */
+}
+
+.header h1 {
+    font-size: 2.2em;
+    margin: 10px 0;
+    color: #1f2937;
+}
+
+.header .title {
+    font-size: 1.2em;
+    color: #6b7280;
+    margin: 5px 0;
+}
+
+/* Sección */
+.section {
+    margin-top: 20px;
+}
+
+.section h2 {
+    font-size: 1.8em;
+    color: #1f2937;
+    border-left: 5px solid #2563eb;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+
+.section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.section li {
+    background: #f9fafb;
+    margin: 10px 0;
+    padding: 10px;
+    border-left: 5px solid #2563eb;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.section li strong {
+    color: #2563eb;
+}
+
+.section p {
+    margin: 5px 0 0 15px;
+    font-size: 0.95em;
+    color: #4b5563;
+}
